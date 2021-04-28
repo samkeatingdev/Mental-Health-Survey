@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+  <title> Working From Home Employee Mental Health Survey </title> 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+  <h1 id="title"> Working From Home Employee Mental Health Survey </h1>
+  <p id="description"> This anonymous survey was created to record the experiences of employees in Ireland and their time working from home, during Covid-19. Thank you for taking the time to complete this survey. <p>
+
+<div id="container">
+ <form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input type="name" name="name" id="name" class="form-control" placeholder="Enter your name" required> 
+           </div>
+    <div class="form-group">
+     <label id="email-label" for="email">Email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+           </div>  
+       <div class="form-group">
+     <label id="number-label" for="number">Age(Optional)</label>
+    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age"> 
+           </div>
+         <div class="form-group">
+    <label id="text" for="name">Occupation</label>
+    <input type="name" name="name" id="text" class="form-control" placeholder="Enter your occupation" required>
+           </div>
+           <div class="form-group">
+             <p> How has working from home effected your mental health? </p> <select id="dropdown" name="rating" class="form-control" required>
+<option disabled="" selected="" value="">Please Answer</option>
+         <option value="very.Pos">Very Positively</option>
+              <option value="Pos"> Positively</option>
+             <option value="Null"> No Impact</option>
+             <option value="Neg"> Negatively</option>
+              <option value="very.Neg"> Very Negatively</option>
+             </select>
+           </div>
+             <div class="form-group">
+               <p>Would you like to return to work?</p>
+   
+               <label> <input name="Return-Work" value="Yes" type="radio" class="input-radio" checked >Definitely</label> 
+               <label> <input name="Return-Work" value="Indifferent" type="radio" class="input-radio" checked >I don't mind</label>
+                <label> <input name="Return-Work" value="No" type="radio" class="input-radio" checked >No</label>
+           </div>
+               
+              
+             
+             
+      
+         <div class="form-group">
+             <p> Is there anything you like about working from home? </p> 
+           <label>
+           <input name="commute" value="commute" type="checkbox" class="input-checkbox">No Commute
+           </label>
+           <label>
+           <input name="family" value="family" type="checkbox" class="input-checkbox">More Family Time
+           </label>
+             <label>
+           <input name="money" value="money" type="checkbox" class="input-checkbox">Saving Money
+           </label>
+           <label>
+           <input name="time" value="time" type="checkbox" class="input-checkbox">Time Flexibility
+           </label>
+           <label> <input name="other" value="other" type="checkbox" class="input-checkbox">
+            <input type="name" name="name" id="name" class="form-control" placeholder="Other"
+           </label>
+           </div>
+           
+           <div class="form-group"
+              <p> Is there anything you dislike about working from home? </p> 
+           <label>
+           <input name="social" value="social" type="checkbox" class="input-checkbox">Socializing
+           </label>
+           <label>
+           <input name="work-life" value="work-life" type="checkbox" class="input-checkbox">Work/Life Seperation
+           </label>
+             <label>
+           <input name="home" value="home" type="checkbox" class="input-checkbox">Home Issues
+           </label>
+           <label>
+           <input name="ergo" value="ergo" type="checkbox" class="input-checkbox">Ergonomic Issues
+           </label>
+           <label> <input name="other" value="other" type="checkbox" class="input-checkbox">
+            <input type="name" name="name" id="name" class="form-control" placeholder="Other"
+           </label>
+           </div>
+<div class="form-group">
+  <p>Do you have any suggestions on how working from home could be improved?</p>
+  <textarea id="suggestions" class="input-textarea" name="suggestions" placeholder="Enter your suggestions here..."></textarea>
+      </div>
+         <div class="form-group">
+           <button type="submit" id="submit" class="submit-button">Submit</button>
+         </div>
+  </form>
+  </div>
+  
+  
+  
