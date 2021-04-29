@@ -1,0 +1,46 @@
+body { background-image: url("https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg")
+   
+   
+  
+}
+
+#title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#description {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#text {
+  position: relative;
+  left: 15px;
+}
+
+
+
+#container {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 100, 0, 0.4);
+margin: auto 400px;
+}
+
+
+
+#number-label {
+  position: relative;
+  right: 28px;
+}
+
+#number {
+   position: relative;
+  right: 28px;
+}
+
+
+
